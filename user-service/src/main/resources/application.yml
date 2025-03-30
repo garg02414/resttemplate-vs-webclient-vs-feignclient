@@ -1,0 +1,15 @@
+#http://localhost:8086/swagger-ui/index.html
+spring:
+  application:
+    name: restTemplate
+  datasource:
+    url: jdbc:postgresql://localhost:5432/rest-template-user
+    username: postgres
+    password: admin
+    driver-class-name: org.postgresql.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+server:
+  port: 8086
